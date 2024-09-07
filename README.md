@@ -4,7 +4,7 @@ Conducted by Lee JaePyeong
 ## Pmod JSTK2 Interface
 
 ### Data Flow
-![myJSTK2_DataFlow](https://github.com/user-attachments/assets/bc9542be-e6a2-4db4-a6aa-6024db0f7d4a)
+![myJSTK2_DataFlow](https://github.com/user-attachments/assets/17139414-3495-4f89-9530-4410d8b326f5)
 
 ### State Flow
 ![myJSTK2_StateFlow](https://github.com/user-attachments/assets/4e9e4d19-cda8-4168-bb3a-4cdc8fe64371)
