@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_OLEDrgb_driver_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_OLEDrgb_driver" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="115000000fs"></ZoomStartTime>
+      <ZoomEndTime time="309915000001fs"></ZoomEndTime>
+      <Cursor1Time time="83515000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="145"></NameColumnWidth>
+      <ValueColumnWidth column_width="130"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="66" />
+   <wvobject fp_name="/tb_OLEDrgb_driver/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/i_n_reset" type="logic">
+      <obj_property name="ElementShortName">i_n_reset</obj_property>
+      <obj_property name="ObjectShortName">i_n_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/i_start" type="logic">
+      <obj_property name="ElementShortName">i_start</obj_property>
+      <obj_property name="ObjectShortName">i_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/i_cmd_reset" type="logic">
+      <obj_property name="ElementShortName">i_cmd_reset</obj_property>
+      <obj_property name="ObjectShortName">i_cmd_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/i_num_cmd" type="array">
+      <obj_property name="ElementShortName">i_num_cmd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_num_cmd[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/i_cmd_1" type="array">
+      <obj_property name="ElementShortName">i_cmd_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_cmd_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/i_cmd_2" type="array">
+      <obj_property name="ElementShortName">i_cmd_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_cmd_2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/i_cmd_3" type="array">
+      <obj_property name="ElementShortName">i_cmd_3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_cmd_3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/o_done" type="logic">
+      <obj_property name="ElementShortName">o_done</obj_property>
+      <obj_property name="ObjectShortName">o_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/o_mosi" type="logic">
+      <obj_property name="ElementShortName">o_mosi</obj_property>
+      <obj_property name="ObjectShortName">o_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/o_sclk" type="logic">
+      <obj_property name="ElementShortName">o_sclk</obj_property>
+      <obj_property name="ObjectShortName">o_sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/o_cs" type="logic">
+      <obj_property name="ElementShortName">o_cs</obj_property>
+      <obj_property name="ObjectShortName">o_cs</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider119">
+      <obj_property name="label">CTRL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/i_n_reset" type="logic">
+      <obj_property name="ElementShortName">i_n_reset</obj_property>
+      <obj_property name="ObjectShortName">i_n_reset</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/i_start" type="logic">
+      <obj_property name="ElementShortName">i_start</obj_property>
+      <obj_property name="ObjectShortName">i_start</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/i_cmd_reset" type="logic">
+      <obj_property name="ElementShortName">i_cmd_reset</obj_property>
+      <obj_property name="ObjectShortName">i_cmd_reset</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/i_cmd_set_done" type="logic">
+      <obj_property name="ElementShortName">i_cmd_set_done</obj_property>
+      <obj_property name="ObjectShortName">i_cmd_set_done</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/i_tx_done" type="logic">
+      <obj_property name="ElementShortName">i_tx_done</obj_property>
+      <obj_property name="ObjectShortName">i_tx_done</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/i_next_byte" type="logic">
+      <obj_property name="ElementShortName">i_next_byte</obj_property>
+      <obj_property name="ObjectShortName">i_next_byte</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/i_last_byte" type="logic">
+      <obj_property name="ElementShortName">i_last_byte</obj_property>
+      <obj_property name="ObjectShortName">i_last_byte</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/o_sclk_en" type="logic">
+      <obj_property name="ElementShortName">o_sclk_en</obj_property>
+      <obj_property name="ObjectShortName">o_sclk_en</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/o_cmd_set" type="logic">
+      <obj_property name="ElementShortName">o_cmd_set</obj_property>
+      <obj_property name="ObjectShortName">o_cmd_set</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/o_next_byte" type="logic">
+      <obj_property name="ElementShortName">o_next_byte</obj_property>
+      <obj_property name="ObjectShortName">o_next_byte</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/o_cmd_reset" type="logic">
+      <obj_property name="ElementShortName">o_cmd_reset</obj_property>
+      <obj_property name="ObjectShortName">o_cmd_reset</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/o_done" type="logic">
+      <obj_property name="ElementShortName">o_done</obj_property>
+      <obj_property name="ObjectShortName">o_done</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/present_state" type="array">
+      <obj_property name="ElementShortName">present_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">present_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group146" type="group">
+      <obj_property name="label">reg</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/r_cmd_set" type="logic">
+         <obj_property name="ElementShortName">r_cmd_set</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_set</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/r_next_byte" type="logic">
+         <obj_property name="ElementShortName">r_next_byte</obj_property>
+         <obj_property name="ObjectShortName">r_next_byte</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/r_done" type="logic">
+         <obj_property name="ElementShortName">r_done</obj_property>
+         <obj_property name="ObjectShortName">r_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/r_sclk_en" type="logic">
+         <obj_property name="ElementShortName">r_sclk_en</obj_property>
+         <obj_property name="ObjectShortName">r_sclk_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/r_cmd_reset" type="logic">
+         <obj_property name="ElementShortName">r_cmd_reset</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/IDLE" type="array">
+         <obj_property name="ElementShortName">IDLE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/CMD_SET" type="array">
+         <obj_property name="ElementShortName">CMD_SET[2:0]</obj_property>
+         <obj_property name="ObjectShortName">CMD_SET[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/TX" type="array">
+         <obj_property name="ElementShortName">TX[2:0]</obj_property>
+         <obj_property name="ObjectShortName">TX[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/NEXT_BYTE" type="array">
+         <obj_property name="ElementShortName">NEXT_BYTE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">NEXT_BYTE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/control_i/DONE" type="array">
+         <obj_property name="ElementShortName">DONE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">DONE[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider46">
+      <obj_property name="label">SCLK</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group145" type="group">
+      <obj_property name="label">SCLK</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/SCLK_GEN/i_clk" type="logic">
+         <obj_property name="ElementShortName">i_clk</obj_property>
+         <obj_property name="ObjectShortName">i_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/SCLK_GEN/i_n_reset" type="logic">
+         <obj_property name="ElementShortName">i_n_reset</obj_property>
+         <obj_property name="ObjectShortName">i_n_reset</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/SCLK_GEN/i_enable" type="logic">
+         <obj_property name="ElementShortName">i_enable</obj_property>
+         <obj_property name="ObjectShortName">i_enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/SCLK_GEN/o_tick" type="logic">
+         <obj_property name="ElementShortName">o_tick</obj_property>
+         <obj_property name="ObjectShortName">o_tick</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/SCLK_GEN/r_count" type="array">
+         <obj_property name="ElementShortName">r_count[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_count[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/SCLK_GEN/r_tick" type="logic">
+         <obj_property name="ElementShortName">r_tick</obj_property>
+         <obj_property name="ObjectShortName">r_tick</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/SCLK_GEN/THRESHOLD" type="array">
+         <obj_property name="ElementShortName">THRESHOLD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">THRESHOLD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/SCLK_GEN/MODE" type="array">
+         <obj_property name="ElementShortName">MODE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MODE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/SCLK_GEN/IDLE" type="array">
+         <obj_property name="ElementShortName">IDLE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider56">
+      <obj_property name="label">CMD P</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_processor_i/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_processor_i/i_n_reset" type="logic">
+      <obj_property name="ElementShortName">i_n_reset</obj_property>
+      <obj_property name="ObjectShortName">i_n_reset</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_processor_i/i_sclk" type="logic">
+      <obj_property name="ElementShortName">i_sclk</obj_property>
+      <obj_property name="ObjectShortName">i_sclk</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_processor_i/i_sclk_z" type="logic">
+      <obj_property name="ElementShortName">i_sclk_z</obj_property>
+      <obj_property name="ObjectShortName">i_sclk_z</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_processor_i/i_sclk_zz" type="logic">
+      <obj_property name="ElementShortName">i_sclk_zz</obj_property>
+      <obj_property name="ObjectShortName">i_sclk_zz</obj_property>
+      <obj_property name="CustomSignalColor">#0000A0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_processor_i/i_cmd_set" type="logic">
+      <obj_property name="ElementShortName">i_cmd_set</obj_property>
+      <obj_property name="ObjectShortName">i_cmd_set</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_processor_i/i_cmd_reset" type="logic">
+      <obj_property name="ElementShortName">i_cmd_reset</obj_property>
+      <obj_property name="ObjectShortName">i_cmd_reset</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_processor_i/i_next_byte" type="logic">
+      <obj_property name="ElementShortName">i_next_byte</obj_property>
+      <obj_property name="ObjectShortName">i_next_byte</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_processor_i/i_tx_data" type="array">
+      <obj_property name="ElementShortName">i_tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_tx_data[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_processor_i/o_done" type="logic">
+      <obj_property name="ElementShortName">o_done</obj_property>
+      <obj_property name="ObjectShortName">o_done</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_processor_i/o_mosi" type="logic">
+      <obj_property name="ElementShortName">o_mosi</obj_property>
+      <obj_property name="ObjectShortName">o_mosi</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_processor_i/r_tx_data" type="array">
+      <obj_property name="ElementShortName">r_tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_processor_i/r_tx_data" type="array">
+      <obj_property name="ElementShortName">r_tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_tx_data[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_processor_i/r_mosi" type="logic">
+      <obj_property name="ElementShortName">r_mosi</obj_property>
+      <obj_property name="ObjectShortName">r_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_processor_i/r_bit_count" type="array">
+      <obj_property name="ElementShortName">r_bit_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r_bit_count[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider72">
+      <obj_property name="label">CMD B</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_n_reset" type="logic">
+      <obj_property name="ElementShortName">i_n_reset</obj_property>
+      <obj_property name="ObjectShortName">i_n_reset</obj_property>
+      <obj_property name="CustomSignalColor">#808080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_cmd_set" type="logic">
+      <obj_property name="ElementShortName">i_cmd_set</obj_property>
+      <obj_property name="ObjectShortName">i_cmd_set</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_cmd_reset" type="logic">
+      <obj_property name="ElementShortName">i_cmd_reset</obj_property>
+      <obj_property name="ObjectShortName">i_cmd_reset</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_next_byte" type="logic">
+      <obj_property name="ElementShortName">i_next_byte</obj_property>
+      <obj_property name="ObjectShortName">i_next_byte</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_num_cmd" type="array">
+      <obj_property name="ElementShortName">i_num_cmd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">i_num_cmd[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_cmd_1" type="array">
+      <obj_property name="ElementShortName">i_cmd_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_cmd_1[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_cmd_2" type="array">
+      <obj_property name="ElementShortName">i_cmd_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_cmd_2[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_cmd_3" type="array">
+      <obj_property name="ElementShortName">i_cmd_3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_cmd_3[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="group148" type="group">
+      <obj_property name="label">NC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_cmd_4" type="array">
+         <obj_property name="ElementShortName">i_cmd_4[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_cmd_4[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_cmd_5" type="array">
+         <obj_property name="ElementShortName">i_cmd_5[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_cmd_5[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_cmd_6" type="array">
+         <obj_property name="ElementShortName">i_cmd_6[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_cmd_6[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_cmd_7" type="array">
+         <obj_property name="ElementShortName">i_cmd_7[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_cmd_7[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_cmd_8" type="array">
+         <obj_property name="ElementShortName">i_cmd_8[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_cmd_8[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_cmd_9" type="array">
+         <obj_property name="ElementShortName">i_cmd_9[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_cmd_9[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_cmd_10" type="array">
+         <obj_property name="ElementShortName">i_cmd_10[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_cmd_10[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_cmd_11" type="array">
+         <obj_property name="ElementShortName">i_cmd_11[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_cmd_11[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_cmd_12" type="array">
+         <obj_property name="ElementShortName">i_cmd_12[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_cmd_12[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_cmd_13" type="array">
+         <obj_property name="ElementShortName">i_cmd_13[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_cmd_13[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_cmd_14" type="array">
+         <obj_property name="ElementShortName">i_cmd_14[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_cmd_14[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/i_cmd_15" type="array">
+         <obj_property name="ElementShortName">i_cmd_15[7:0]</obj_property>
+         <obj_property name="ObjectShortName">i_cmd_15[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/o_cmd" type="array">
+      <obj_property name="ElementShortName">o_cmd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_cmd[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/o_cmd_set_done" type="logic">
+      <obj_property name="ElementShortName">o_cmd_set_done</obj_property>
+      <obj_property name="ObjectShortName">o_cmd_set_done</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/o_next_byte_set" type="logic">
+      <obj_property name="ElementShortName">o_next_byte_set</obj_property>
+      <obj_property name="ObjectShortName">o_next_byte_set</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/o_last_byte" type="logic">
+      <obj_property name="ElementShortName">o_last_byte</obj_property>
+      <obj_property name="ObjectShortName">o_last_byte</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_num_cmd" type="array">
+      <obj_property name="ElementShortName">r_num_cmd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r_num_cmd[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_byte_count" type="array">
+      <obj_property name="ElementShortName">r_byte_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r_byte_count[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_cmd_set_done" type="logic">
+      <obj_property name="ElementShortName">r_cmd_set_done</obj_property>
+      <obj_property name="ObjectShortName">r_cmd_set_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_next_byte_set" type="logic">
+      <obj_property name="ElementShortName">r_next_byte_set</obj_property>
+      <obj_property name="ObjectShortName">r_next_byte_set</obj_property>
+   </wvobject>
+   <wvobject fp_name="group147" type="group">
+      <obj_property name="label">reg</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_cmd_1" type="array">
+         <obj_property name="ElementShortName">r_cmd_1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_1[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_cmd_2" type="array">
+         <obj_property name="ElementShortName">r_cmd_2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_2[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_cmd_3" type="array">
+         <obj_property name="ElementShortName">r_cmd_3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_3[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_cmd_4" type="array">
+         <obj_property name="ElementShortName">r_cmd_4[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_4[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_cmd_5" type="array">
+         <obj_property name="ElementShortName">r_cmd_5[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_5[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_cmd_6" type="array">
+         <obj_property name="ElementShortName">r_cmd_6[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_6[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_cmd_7" type="array">
+         <obj_property name="ElementShortName">r_cmd_7[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_7[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_cmd_8" type="array">
+         <obj_property name="ElementShortName">r_cmd_8[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_8[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_cmd_9" type="array">
+         <obj_property name="ElementShortName">r_cmd_9[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_9[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_cmd_10" type="array">
+         <obj_property name="ElementShortName">r_cmd_10[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_10[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_cmd_11" type="array">
+         <obj_property name="ElementShortName">r_cmd_11[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_11[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_cmd_12" type="array">
+         <obj_property name="ElementShortName">r_cmd_12[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_12[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_cmd_13" type="array">
+         <obj_property name="ElementShortName">r_cmd_13[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_13[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_cmd_14" type="array">
+         <obj_property name="ElementShortName">r_cmd_14[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_14[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_cmd_15" type="array">
+         <obj_property name="ElementShortName">r_cmd_15[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_15[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_OLEDrgb_driver/OLEDrgb_driver_i/cmd_buffer_i/r_cmd_out" type="array">
+         <obj_property name="ElementShortName">r_cmd_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">r_cmd_out[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

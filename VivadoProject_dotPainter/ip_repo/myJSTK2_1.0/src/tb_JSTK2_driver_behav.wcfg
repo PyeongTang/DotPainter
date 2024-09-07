@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_JSTK2_driver_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_JSTK2_driver" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="462107222224fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="216"></NameColumnWidth>
+      <ValueColumnWidth column_width="174"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="101" />
+   <wvobject type="divider" fp_name="divider68">
+      <obj_property name="label">CTRL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/i_n_reset" type="logic">
+      <obj_property name="ElementShortName">i_n_reset</obj_property>
+      <obj_property name="ObjectShortName">i_n_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/o_done" type="logic">
+      <obj_property name="ElementShortName">o_done</obj_property>
+      <obj_property name="ObjectShortName">o_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/i_fetch" type="logic">
+      <obj_property name="ElementShortName">i_fetch</obj_property>
+      <obj_property name="ObjectShortName">i_fetch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/i_cmd_set" type="logic">
+      <obj_property name="ElementShortName">i_cmd_set</obj_property>
+      <obj_property name="ObjectShortName">i_cmd_set</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/i_rx_data_single_byte_valid" type="logic">
+      <obj_property name="ElementShortName">i_rx_data_single_byte_valid</obj_property>
+      <obj_property name="ObjectShortName">i_rx_data_single_byte_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/i_cs_low_set" type="logic">
+      <obj_property name="ElementShortName">i_cs_low_set</obj_property>
+      <obj_property name="ObjectShortName">i_cs_low_set</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/i_cs_high_set" type="logic">
+      <obj_property name="ElementShortName">i_cs_high_set</obj_property>
+      <obj_property name="ObjectShortName">i_cs_high_set</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/o_cs_low_set" type="logic">
+      <obj_property name="ElementShortName">o_cs_low_set</obj_property>
+      <obj_property name="ObjectShortName">o_cs_low_set</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/o_cs_high_set" type="logic">
+      <obj_property name="ElementShortName">o_cs_high_set</obj_property>
+      <obj_property name="ObjectShortName">o_cs_high_set</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/o_wait_15_us_en" type="logic">
+      <obj_property name="ElementShortName">o_wait_15_us_en</obj_property>
+      <obj_property name="ObjectShortName">o_wait_15_us_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/o_wait_25_us_en" type="logic">
+      <obj_property name="ElementShortName">o_wait_25_us_en</obj_property>
+      <obj_property name="ObjectShortName">o_wait_25_us_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/i_wait_15_us_done" type="logic">
+      <obj_property name="ElementShortName">i_wait_15_us_done</obj_property>
+      <obj_property name="ObjectShortName">i_wait_15_us_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/i_wait_25_us_done" type="logic">
+      <obj_property name="ElementShortName">i_wait_25_us_done</obj_property>
+      <obj_property name="ObjectShortName">i_wait_25_us_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/i_rx_data_multiple_byte_valid" type="logic">
+      <obj_property name="ElementShortName">i_rx_data_multiple_byte_valid</obj_property>
+      <obj_property name="ObjectShortName">i_rx_data_multiple_byte_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/o_sclk_enable" type="logic">
+      <obj_property name="ElementShortName">o_sclk_enable</obj_property>
+      <obj_property name="ObjectShortName">o_sclk_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/present_state" type="array">
+      <obj_property name="ElementShortName">present_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">present_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/r_cs_low_set" type="logic">
+      <obj_property name="ElementShortName">r_cs_low_set</obj_property>
+      <obj_property name="ObjectShortName">r_cs_low_set</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/r_cs_high_set" type="logic">
+      <obj_property name="ElementShortName">r_cs_high_set</obj_property>
+      <obj_property name="ObjectShortName">r_cs_high_set</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/r_wait_15_enable" type="logic">
+      <obj_property name="ElementShortName">r_wait_15_enable</obj_property>
+      <obj_property name="ObjectShortName">r_wait_15_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/r_wait_25_enable" type="logic">
+      <obj_property name="ElementShortName">r_wait_25_enable</obj_property>
+      <obj_property name="ObjectShortName">r_wait_25_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/r_sclk_enable" type="logic">
+      <obj_property name="ElementShortName">r_sclk_enable</obj_property>
+      <obj_property name="ObjectShortName">r_sclk_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/r_done" type="logic">
+      <obj_property name="ElementShortName">r_done</obj_property>
+      <obj_property name="ObjectShortName">r_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/CS_LOW" type="array">
+      <obj_property name="ElementShortName">CS_LOW[2:0]</obj_property>
+      <obj_property name="ObjectShortName">CS_LOW[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/WAIT_15" type="array">
+      <obj_property name="ElementShortName">WAIT_15[2:0]</obj_property>
+      <obj_property name="ObjectShortName">WAIT_15[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/BYTE_TX" type="array">
+      <obj_property name="ElementShortName">BYTE_TX[2:0]</obj_property>
+      <obj_property name="ObjectShortName">BYTE_TX[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/CS_HIGH" type="array">
+      <obj_property name="ElementShortName">CS_HIGH[2:0]</obj_property>
+      <obj_property name="ObjectShortName">CS_HIGH[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/WAIT_25" type="array">
+      <obj_property name="ElementShortName">WAIT_25[2:0]</obj_property>
+      <obj_property name="ObjectShortName">WAIT_25[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/control_i/DONE" type="array">
+      <obj_property name="ElementShortName">DONE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DONE[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider27">
+      <obj_property name="label">data tx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/i_n_reset" type="logic">
+      <obj_property name="ElementShortName">i_n_reset</obj_property>
+      <obj_property name="ObjectShortName">i_n_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/i_sclk_z" type="logic">
+      <obj_property name="ElementShortName">i_sclk_z</obj_property>
+      <obj_property name="ObjectShortName">i_sclk_z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/i_sclk" type="logic">
+      <obj_property name="ElementShortName">i_sclk</obj_property>
+      <obj_property name="ObjectShortName">i_sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/i_miso" type="logic">
+      <obj_property name="ElementShortName">i_miso</obj_property>
+      <obj_property name="ObjectShortName">i_miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/o_mosi" type="logic">
+      <obj_property name="ElementShortName">o_mosi</obj_property>
+      <obj_property name="ObjectShortName">o_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/i_cmd" type="array">
+      <obj_property name="ElementShortName">i_cmd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_cmd[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/i_cmd_valid" type="logic">
+      <obj_property name="ElementShortName">i_cmd_valid</obj_property>
+      <obj_property name="ObjectShortName">i_cmd_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/i_fetch" type="logic">
+      <obj_property name="ElementShortName">i_fetch</obj_property>
+      <obj_property name="ObjectShortName">i_fetch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/i_param_1" type="array">
+      <obj_property name="ElementShortName">i_param_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_param_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/i_param_2" type="array">
+      <obj_property name="ElementShortName">i_param_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_param_2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/i_param_3" type="array">
+      <obj_property name="ElementShortName">i_param_3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_param_3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/i_param_4" type="array">
+      <obj_property name="ElementShortName">i_param_4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_param_4[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/o_cmd_set" type="logic">
+      <obj_property name="ElementShortName">o_cmd_set</obj_property>
+      <obj_property name="ObjectShortName">o_cmd_set</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/o_cmd_echo" type="array">
+      <obj_property name="ElementShortName">o_cmd_echo[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_cmd_echo[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/o_rx_data" type="array">
+      <obj_property name="ElementShortName">o_rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/o_rx_data_valid" type="logic">
+      <obj_property name="ElementShortName">o_rx_data_valid</obj_property>
+      <obj_property name="ObjectShortName">o_rx_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/r_mosi" type="logic">
+      <obj_property name="ElementShortName">r_mosi</obj_property>
+      <obj_property name="ObjectShortName">r_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/r_rx_data" type="array">
+      <obj_property name="ElementShortName">r_rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/r_tx_data" type="array">
+      <obj_property name="ElementShortName">r_tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/r_bit_count" type="array">
+      <obj_property name="ElementShortName">r_bit_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r_bit_count[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/r_byte_count" type="array">
+      <obj_property name="ElementShortName">r_byte_count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">r_byte_count[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/r_cmd_set" type="logic">
+      <obj_property name="ElementShortName">r_cmd_set</obj_property>
+      <obj_property name="ObjectShortName">r_cmd_set</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/r_rx_data_valid" type="logic">
+      <obj_property name="ElementShortName">r_rx_data_valid</obj_property>
+      <obj_property name="ObjectShortName">r_rx_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/r_rx_data_valid_z" type="logic">
+      <obj_property name="ElementShortName">r_rx_data_valid_z</obj_property>
+      <obj_property name="ObjectShortName">r_rx_data_valid_z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/r_rx_data_valid_zz" type="logic">
+      <obj_property name="ElementShortName">r_rx_data_valid_zz</obj_property>
+      <obj_property name="ObjectShortName">r_rx_data_valid_zz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/r_first_tx" type="logic">
+      <obj_property name="ElementShortName">r_first_tx</obj_property>
+      <obj_property name="ObjectShortName">r_first_tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/r_cmd_echo" type="array">
+      <obj_property name="ElementShortName">r_cmd_echo[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cmd_echo[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_transfer_i/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider27">
+      <obj_property name="label">data shift</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_shift_i/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_shift_i/i_n_reset" type="logic">
+      <obj_property name="ElementShortName">i_n_reset</obj_property>
+      <obj_property name="ObjectShortName">i_n_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_shift_i/o_rx_data" type="array">
+      <obj_property name="ElementShortName">o_rx_data[55:0]</obj_property>
+      <obj_property name="ObjectShortName">o_rx_data[55:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_shift_i/i_fetch" type="logic">
+      <obj_property name="ElementShortName">i_fetch</obj_property>
+      <obj_property name="ObjectShortName">i_fetch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_shift_i/i_rx_data" type="array">
+      <obj_property name="ElementShortName">i_rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_shift_i/i_rx_data_valid" type="logic">
+      <obj_property name="ElementShortName">i_rx_data_valid</obj_property>
+      <obj_property name="ObjectShortName">i_rx_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_shift_i/o_rx_data_valid" type="logic">
+      <obj_property name="ElementShortName">o_rx_data_valid</obj_property>
+      <obj_property name="ObjectShortName">o_rx_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_shift_i/r_rx_data" type="array">
+      <obj_property name="ElementShortName">r_rx_data[55:0]</obj_property>
+      <obj_property name="ObjectShortName">r_rx_data[55:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_shift_i/r_count" type="array">
+      <obj_property name="ElementShortName">r_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r_count[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_shift_i/TOTAL_DATA_BYTE" type="array">
+      <obj_property name="ElementShortName">TOTAL_DATA_BYTE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">TOTAL_DATA_BYTE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/data_shift_i/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider71">
+      <obj_property name="label">WAIT 15</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/wait_counter_i_15/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/wait_counter_i_15/i_n_reset" type="logic">
+      <obj_property name="ElementShortName">i_n_reset</obj_property>
+      <obj_property name="ObjectShortName">i_n_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/wait_counter_i_15/i_enable" type="logic">
+      <obj_property name="ElementShortName">i_enable</obj_property>
+      <obj_property name="ObjectShortName">i_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/wait_counter_i_15/o_tick" type="logic">
+      <obj_property name="ElementShortName">o_tick</obj_property>
+      <obj_property name="ObjectShortName">o_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/wait_counter_i_15/r_count" type="array">
+      <obj_property name="ElementShortName">r_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/wait_counter_i_15/r_tick" type="logic">
+      <obj_property name="ElementShortName">r_tick</obj_property>
+      <obj_property name="ObjectShortName">r_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/wait_counter_i_15/THRESHOLD" type="array">
+      <obj_property name="ElementShortName">THRESHOLD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">THRESHOLD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/wait_counter_i_15/MODE" type="array">
+      <obj_property name="ElementShortName">MODE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MODE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider80">
+      <obj_property name="label">WAIT 25</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/wait_counter_i_25/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/wait_counter_i_25/i_n_reset" type="logic">
+      <obj_property name="ElementShortName">i_n_reset</obj_property>
+      <obj_property name="ObjectShortName">i_n_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/wait_counter_i_25/i_enable" type="logic">
+      <obj_property name="ElementShortName">i_enable</obj_property>
+      <obj_property name="ObjectShortName">i_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/wait_counter_i_25/o_tick" type="logic">
+      <obj_property name="ElementShortName">o_tick</obj_property>
+      <obj_property name="ObjectShortName">o_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/wait_counter_i_25/r_count" type="array">
+      <obj_property name="ElementShortName">r_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/wait_counter_i_25/r_tick" type="logic">
+      <obj_property name="ElementShortName">r_tick</obj_property>
+      <obj_property name="ObjectShortName">r_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/wait_counter_i_25/THRESHOLD" type="array">
+      <obj_property name="ElementShortName">THRESHOLD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">THRESHOLD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/wait_counter_i_25/MODE" type="array">
+      <obj_property name="ElementShortName">MODE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MODE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider154">
+      <obj_property name="label">SCLK Gen</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/sclk_generator/i_clk" type="logic">
+      <obj_property name="ElementShortName">i_clk</obj_property>
+      <obj_property name="ObjectShortName">i_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/sclk_generator/i_n_reset" type="logic">
+      <obj_property name="ElementShortName">i_n_reset</obj_property>
+      <obj_property name="ObjectShortName">i_n_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/sclk_generator/i_enable" type="logic">
+      <obj_property name="ElementShortName">i_enable</obj_property>
+      <obj_property name="ObjectShortName">i_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/sclk_generator/o_tick" type="logic">
+      <obj_property name="ElementShortName">o_tick</obj_property>
+      <obj_property name="ObjectShortName">o_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/sclk_generator/r_count" type="array">
+      <obj_property name="ElementShortName">r_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/sclk_generator/r_tick" type="logic">
+      <obj_property name="ElementShortName">r_tick</obj_property>
+      <obj_property name="ObjectShortName">r_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/sclk_generator/THRESHOLD" type="array">
+      <obj_property name="ElementShortName">THRESHOLD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">THRESHOLD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_JSTK2_driver/JSTK2_driver_i/sclk_generator/MODE" type="array">
+      <obj_property name="ElementShortName">MODE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MODE[31:0]</obj_property>
+   </wvobject>
+</wave_config>
