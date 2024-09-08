@@ -31,4 +31,4 @@ Conducted by Lee JaePyeong
 
 
 ### Demo Video Link
-[![Video Label](http://img.youtube.com/vi/OcbAfCiYgek/0.jpg)]([https://youtu.be/59USvjy2toI](https://youtu.be/OcbAfCiYgek))
+[![Video Label](http://img.youtube.com/vi/OcbAfCiYgek/0.jpg)](https://youtu.be/OcbAfCiYgek)
