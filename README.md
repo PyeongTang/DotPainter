@@ -12,6 +12,9 @@ Conducted by Lee JaePyeong
 ### State Flow
 ![myJSTK2_StateFlow](https://github.com/user-attachments/assets/4e9e4d19-cda8-4168-bb3a-4cdc8fe64371)
 
+### Slave Register Mapping
+![myJSTK2_RegMap](https://github.com/user-attachments/assets/edd5578e-fb41-42a8-9eb9-da412c5904a4)
+
 ## Pmod OLEDrgb Interface
 
 ### Data Flow
@@ -20,15 +23,18 @@ Conducted by Lee JaePyeong
 ### State Flow
 ![myOLEDrgb_StateFlow](https://github.com/user-attachments/assets/c99ab822-00eb-4ce2-8ce9-52e15c562d6e)
 
-### Implemented Design
+### Slave Register Mapping
+![myOLEDrgb_DataFlow](https://github.com/user-attachments/assets/51004723-0caa-406d-bac2-828214196992)
+
+## Implemented Design
 ![ImplementedDesign](https://github.com/user-attachments/assets/dc2d09e1-ba30-476d-bbb0-98f4adf4b76d)
 
-### HW Resource
+## HW Resource
 ![HW_Resource](https://github.com/user-attachments/assets/2a199007-0fe4-44cf-97b3-ecade90b0f2f)
 
-### Timing
+## Timing
 ![Timing](https://github.com/user-attachments/assets/246f26a6-2961-4e90-9699-06faf7739a00)
 
-
-### Demo Video Link
+## Demo Video Link
 [![Video Label](http://img.youtube.com/vi/OcbAfCiYgek/0.jpg)](https://youtu.be/OcbAfCiYgek)
+
