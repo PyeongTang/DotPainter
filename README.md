@@ -2,7 +2,7 @@
 Conducted by Lee JaePyeong
 
 ## Project Concept
-![DotPainter_BD](https://github.com/user-attachments/assets/073fabea-148e-4f53-ba22-1e5f2dcc906d)
+![DotPainter_BD](https://github.com/user-attachments/assets/a882f24d-b045-4471-8ed3-c76f6871a776)
 
 ## Pmod JSTK2 Interface
 
@@ -28,6 +28,7 @@ Conducted by Lee JaePyeong
 
 ### Timing
 ![Timing](https://github.com/user-attachments/assets/246f26a6-2961-4e90-9699-06faf7739a00)
+
 
 ### Demo Video Link
 [![Video Label](http://img.youtube.com/vi/OcbAfCiYgek/0.jpg)]([https://youtu.be/59USvjy2toI](https://youtu.be/OcbAfCiYgek))
