@@ -1,6 +1,9 @@
 # SoC Design 2023 TermPrj
 Conducted by Lee JaePyeong
 
+## Project Concept
+![DotPainter_BD](https://github.com/user-attachments/assets/15cdecdb-8924-440c-8c09-8e9f15ab0a88)
+
 ## Pmod JSTK2 Interface
 
 ### Data Flow
@@ -19,3 +22,4 @@ Conducted by Lee JaePyeong
 
 ### Demo Video Link
 https://youtu.be/OcbAfCiYgek
+
