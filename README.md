@@ -2,7 +2,7 @@
 Conducted by Lee JaePyeong
 
 ## Project Concept
-![DotPainter_BD](https://github.com/user-attachments/assets/15cdecdb-8924-440c-8c09-8e9f15ab0a88)
+![DotPainter_BD](https://github.com/user-attachments/assets/073fabea-148e-4f53-ba22-1e5f2dcc906d)
 
 ## Pmod JSTK2 Interface
 
@@ -20,6 +20,14 @@ Conducted by Lee JaePyeong
 ### State Flow
 ![myOLEDrgb_StateFlow](https://github.com/user-attachments/assets/c99ab822-00eb-4ce2-8ce9-52e15c562d6e)
 
-### Demo Video Link
-https://youtu.be/OcbAfCiYgek
+### Implemented Design
+![ImplementedDesign](https://github.com/user-attachments/assets/dc2d09e1-ba30-476d-bbb0-98f4adf4b76d)
 
+### HW Resource
+![HW_Resource](https://github.com/user-attachments/assets/2a199007-0fe4-44cf-97b3-ecade90b0f2f)
+
+### Timing
+![Timing](https://github.com/user-attachments/assets/246f26a6-2961-4e90-9699-06faf7739a00)
+
+### Demo Video Link
+[![Video Label](http://img.youtube.com/vi/OcbAfCiYgek/0.jpg)]([https://youtu.be/59USvjy2toI](https://youtu.be/OcbAfCiYgek))
